@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#myBag {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 5;
+    transition: all 2s ease-in-out;
+}
+#bagContent{
+    height: 100vh;
+    background-color: aliceblue;
+    position: absolute;
+    right: 0;
+    width: 30%;
+    overflow: scroll;
+    transition: all 1s ease-in-out;
+}
+#close {
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+}
+.bagImg {
+    height: 80px;
+    width: 70%;
+    object-fit:cover; 
+   object-position:50% 50%;
+}
+
+/*#################### page1 ##########################3*/
+#page1 header {
+    height: 100vh;
+    background: url(../images/main-bcg.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#page1 header .layout {
+    background-color: rgba(0,0, 0, 0.4);
+}
+#page1 header nav ul li a {
+    font-size: 20px;
+}
+#page1 header nav .cart {
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+}
+#cartSize{
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+    background-color: #729ACA;
+    position: absolute;
+    left: -9px;
+    top: -10px;
+    color: white;
+
+}
+#page1 h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+/*#################### page2 ##########################3*/
+
+/* .sidebar {
+    position: sticky;
+} */
+
+
+.add {
+    cursor: pointer;
+}
+ ul li {
+    list-style: none;
+    cursor: pointer;
+ }
+#page2  .layout {
+    background-color: rgba(0,0, 0, 0.4);
+}
+#page2  nav ul li a {
+    font-size: 20px;
+}
+#page2  nav .cart {
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+}
+#page2  nav .cart  span{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #729ACA;
+    position: absolute;
+    left: 0;
+    color: white;
+
+}
+#page2 #title {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#page2 #title .container h2 {
+    font-weight: 500;
+    font-size: 35px;
+    color: white;
+}
+.imgContain {
+    height: 180px;
+    width: 100%;
+    object-fit:cover; 
+   object-position:50% 50%;
+}
